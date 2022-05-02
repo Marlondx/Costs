@@ -1,0 +1,44 @@
+   .nav{
+       justify-content: space-between;
+       padding: 1em;
+       background-color: #222;
+
+      
+   }
+
+   
+   @media (max-width:1366px) {
+    .nav{
+        width: 99%;
+    }
+}
+
+ @media (max-width:412px) {
+     .nav{
+         width: 110%;
+     }
+ }
+ @media (max-width:360px) {
+    .nav{
+        width: 120%;
+    }
+}
+ 
+
+   .lista{
+       display: flex;
+       list-style: none;
+       align-items: center;
+   }
+
+   .item {
+       margin-right: 2em;
+   }
+   .item a{
+       color:#fff;
+       text-decoration: none;
+   }
+
+   .item a:hover {
+       color: #ffbb33;
+   }

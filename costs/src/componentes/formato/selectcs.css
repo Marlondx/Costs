@@ -1,0 +1,28 @@
+.selecionar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+   
+    
+ }
+ 
+ .selecionar label{
+     display: flex;
+     padding-bottom: 0.5em;
+     margin-bottom: 0.6em;
+     font-weight: bold; /*colocar em negrito*/
+     text-align:left;
+   
+     width: 21.2%;
+     margin: auto;
+ }
+ 
+ .selecionar select{
+     margin-left:39.3%;
+     padding: 0.7em;
+     border-radius: 0;   /*darmais negrito no botao*/
+     border: none;
+     width: 21.4%;
+     
+ }
+ 

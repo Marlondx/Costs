@@ -1,0 +1,55 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+
+    padding: 1px;
+    text-align: center;
+    bottom: 0; /*colocar ele para baixo;*/
+    left: 0; /*colocar ele para baixo*/
+    width: 100%;
+    height: 100pt;
+    
+   
+}
+
+
+   /* padding: 3em;
+    text-align: center;
+  /*  position: fixed;  /*para deixar na posiçao fixsada colocar ele para baixo
+    bottom: 0;/* colocar ele para baixo
+    left: 0;/* colocar ele para baixo
+    width: 100%;
+    height: 100pt; */
+
+
+.lista{
+    display: flex;    /*deixa os elementos dentro do contente organizado*/
+    justify-content: center; /*deixar os elementos no meio */
+    list-style-type: none; /*tirar  a numeração do ícones */
+}
+.lista li{
+
+    
+    margin: 0 1em;
+    text-align: center;
+
+    margin: 0 1em;
+}
+.lista li:hover{
+    color: #ffbb33;
+}
+.lista svg{
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+.copy {
+    margin-top: 2em;
+
+    margin-left: 2em;
+
+}
+.copy span{
+    font-weight: bold;  /*para deixar com a cor em negrito */
+    color: #ffbb33;
+}
