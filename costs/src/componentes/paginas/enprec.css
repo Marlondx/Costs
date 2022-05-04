@@ -4,7 +4,9 @@
    margin :auto;
    padding: 3em;
    text-align: center;
-   margin-top: 14%;
+   margin-top: 1%;
+   margin-bottom: 10%;
+   
 }
 @media (max-width:1366px) {
     .project{
